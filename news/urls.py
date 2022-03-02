@@ -10,7 +10,7 @@ urlpatterns=[
     path('',views.index,name = 'index'),
     path('search/', views.search_image, name='search_image'),
     path('location/<str:search_location>/', views.location_filter, name='location_filter'),
-    path('image/<int:image_id>/',views.single,name = 'single'),
+    path('image/<int:image_id>/',views.single, name = 'single'),
      # path('error/',views.error_404,name='error'),   
     
 ]
