@@ -1,5 +1,5 @@
-from django.db import models
 from cloudinary.models import CloudinaryField
+from django.db import models
 
 
 # Create your models here.
@@ -55,9 +55,8 @@ class Category(models.Model):
 
 class Image(models.Model):
     name = models.CharField(max_length = 60)
-    pic = models.ImageField(upload_to = 'uploads/')
     description = models.TextField()
-    image = CloudinaryField('image')
+    image = CloudinaryField('image', null=True)
     image_location = models.ForeignKey(Location,on_delete=models.CASCADE)
     image_category = models.ForeignKey(Category,on_delete=models.CASCADE)
 
