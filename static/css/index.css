@@ -1,4 +1,9 @@
 
+.navbarNav{
+    background-color: white !important;
+    padding-right: 2%;
+    orientation: inherit;
+}
 
 html, body{
     font-family: 'Raleway', sans-serif;
@@ -18,8 +23,9 @@ nav.navbar.navbar-expand-lg.navbar-light{
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    background-color:#fff;
+    background-color:white;
     font-size: 17px;
+    align-items:center;
 
 }
 div#navbarNav.collapse.navbar-collapse{
@@ -30,6 +36,7 @@ ul.navbar-nav{
 }
 li.nav-item{
     padding:0px  20px;
+    
 }
 a.navbar-brand.mr-4.brand{
     color: #000;
@@ -59,6 +66,7 @@ div.collapse.navbar-collapse{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    
 
 }
 div.navbar-nav.ml-auto{
