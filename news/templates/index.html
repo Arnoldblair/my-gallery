@@ -1,30 +1,22 @@
-
 {%extends 'base.html'%}
 {% load static%}
 {% block content %}
-
 {{block.super}}
-
-
 <!-- Landing Page -->
 <div class="banner">
     <div class="cover">
         <div class="container image">
             <h2 id="category"></h2>
             <form class="form" role="search" action="{% url 'search_image' %}">
-
                 <div class="input-group">
                   <input type="text" class="form-control" placeholder="&#xf3ee; Search by category" name="image_category">
                   <br>
                  </div>
-
               </form>
             <a href="#gallery">GALLERY</a>
         </div>
     </div>
 </div>
-
-
 <div class="container wrap">
     <!-- Looping through images -->
     <div class="row" id="gallery">
@@ -50,7 +42,6 @@
         </div>
     </div>
     {% endfor %}
-
     <!-- Image details modal -->
     {% for image in images %}
         <div class="modal fade" id="{{image.id}}" tabindex="-1" role="dialog" aria-labelledby="deleteModalLabel" aria-hidden="true">
@@ -64,7 +55,7 @@
                     </div>
                     <div class="modal-body">
                         <div class="row">
-                            <div class="col-md-9 col-lg-9">
+                         <div id="images" class="col-xs-6 col-sm-3 col-md-4 col-lg-4"></div>
                                 <img style="margin-top: 10px;margin-bottom:10px;" class="img-fluid z-depth-1 img-thumbnail" src="{{ items.image.url }}" alt="{{ items.image_name }}" data-toggle="modal" data-target="#modal{{items.id}}">
                             </div>
                             <div class="col-md-3">
@@ -90,5 +81,4 @@
         </div>
     {% endfor %}
 </div>
-
 {% endblock %}
