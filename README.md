@@ -8,9 +8,9 @@ This is a Django web application that is for displaying photos taken from differ
 
 ### Author
 
-** Arnoldblair Munene **
+**Arnoldblair Munene**
 
-** A student at Moringa School **
+**A student at Moringa School**
 
 ## Setup/Installation Requirements
 
@@ -35,4 +35,5 @@ If you dont have this requirements you could use the link above to help with the
 
 ## Live link
 
-http://ebay-gallery.herokuapp.com/
+ [Click here](https://ebay-gallery.herokuapp.com/).
+
