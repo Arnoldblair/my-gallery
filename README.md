@@ -2,6 +2,10 @@
 # My-Gallery
 This project was generated with python version3.8.10
 
+## Live link
+
+ [Click here](https://ebay-gallery.herokuapp.com/).
+
 ## Description
  
 This is a Django web application that is for displaying photos taken from different locations and then put into different categories for viewing and searching.
@@ -33,7 +37,5 @@ To work with Impresser you need to have some few preresuisites.
 
 If you dont have this requirements you could use the link above to help with the installation guide.
 
-## Live link
 
- [Click here](https://ebay-gallery.herokuapp.com/).
 
