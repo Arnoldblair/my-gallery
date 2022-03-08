@@ -1,6 +1,5 @@
 .vscode
 virtual/
-Media/
 __pycache__
 .env
 tribune/settings.py

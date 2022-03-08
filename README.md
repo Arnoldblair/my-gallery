@@ -1,6 +1,5 @@
-http://ebay-gallery.herokuapp.com/
 
-# Image-cropper
+# My-Gallery
 This project was generated with python version3.8.10
 
 ## Description
@@ -9,14 +8,14 @@ This is a Django web application that is for displaying photos taken from differ
 
 ### Author
 
-**Fidelis Momanyi**
+** Arnoldblair Munene **
 
-**A student at Moringa School**
+** A student at Moringa School **
 
 ## Setup/Installation Requirements
 
 * Clone the repository from Github
-git clone git ```https://github.com/FidelisMomanyi/Image-cropper.git```
+git clone git ```https://github.com/Arnoldblair/my-gallery.git```
 * Open the project with your perfect Intergrated Development Environment (IDE)
 
 ## User Story
